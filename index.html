@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duke Mini_Project</title>
+  <link rel="stylesheet" href="https://drive.google.com/drive/folders/1GwSKnwjgVldKKyasN-I_OTfDT8T38kFx">
+</head>
+<body>
+  <script src="https://www.dukelearntoprogram.com//course1/common/js/cs101/SimpleImage.js"></script>
+  <h1>Fun Filters<sub style="font-size: 1mm;"> By Dev</sub></h1>
+  <hr>
+  <div id="bod">
+    <canvas id="canvas1"></canvas>
+    <hr>
+    <span><h3>Load Image</h3></span>
+    <input type="file" value="Upload" id="imgin" multiple="false" accept="Image/*" onchange="upload()" class="button-33">
+    <h3>Choose a Filter</h3>
+    <p>
+      <input type="button" value="Grayscale" onclick="makeGray()" class="button-33">
+      <input type="button" value="Red" onclick="makeRed()" class="button-33">
+      <input type="button" value="Green" onclick="makeGreen()" class="button-33">
+      <input type="button" value="Blue" onclick="makeBlue()" class="button-33">
+      <br><br>
+      <input type="button" value="Rainbow" onclick="makeRainbow()" class="button-33">
+      <input type="button" value="Blur" onclick="makeBlur()" class="button-33">
+    </p>
+    <hr>
+    <input type="button" value="Reset Image" onclick="resetImage()" class="button-33">
+    <input type="button" value="Clear Canvas" onclick="clearCanvas()" class="button-33">
+  </div>
+  <footer></footer>
+</body>
+  <script  src="./script.js"></script>
+</html>

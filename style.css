@@ -1,0 +1,72 @@
+body {
+    box-shadow:  blur;
+    box-shadow: 0 0 40px rgba(49, 49, 180, 10);
+  }
+  h1 {
+    font-family: cursive;
+    padding:10px;
+    background-color: rgb(135, 200, 222);
+    box-shadow:  blur;
+    box-shadow: 0 0 40px rgba(135, 135, 222, 10);
+  }
+  #bod {
+      
+    padding:10px;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+    box-shadow:  blur;
+    box-shadow: 0 0 900px rgba(135, 135, 222, 10);
+  }
+  #canvas1 {
+      background-position: center;
+      text-align: center;
+    /* font-family: cursive;
+    font-size: 24px;
+    border: 10px solid black;
+    padding: 2rem 1rem;
+    min-height: 3em; */
+    width: 60%;
+    /* resize: both; */
+    background: linear-gradient(to top, rgba(#cffffe, 1), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3)); 
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1; 
+  }
+
+h3 {
+    background-color:springgreen;
+    padding: 10px;
+    /* width:1050px; */
+    background-color: #cf245f;
+    background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+    border: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px; /* 18px */
+    font-weight: 600;
+    line-height: 1.75rem; /* 28px */
+    padding: 1rem 1.25rem;
+    text-align: center;
+}
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: cursive;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
